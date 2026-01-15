@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Durga Foundation",
+  title: "Empowering Youth | durga Foundation",
   description: "Empowering Youth | durga Foundation",
 };
 

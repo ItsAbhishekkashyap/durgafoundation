@@ -23,7 +23,7 @@ const CertificateVerifier = ({ onVerify, verifyResult, loading }) => {
             className="w-full bg-gray-50 text-gray-900 placeholder-gray-400 border border-gray-300 rounded-xl py-4 pl-12 pr-4 focus:ring-2 focus:ring-[#F09401] focus:border-transparent outline-none transition-all"
             value={input} onChange={(e) => setInput(e.target.value)}
           />
-          <Search className="absolute left-4 top-4.5 text-gray-400" size={20} />
+          <Search className="absolute left-4 top-5 text-gray-400" size={20} />
           <button 
             type="submit" disabled={loading}
             className="absolute right-2 top-2 bg-[#800000] hover:bg-[#600000] text-white px-6 py-2 rounded-lg text-sm font-bold transition-all disabled:opacity-50"
